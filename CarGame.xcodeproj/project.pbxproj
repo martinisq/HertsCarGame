@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC9A657D2084A3E5003DD4E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9A657C2084A3E5003DD4E0 /* AppDelegate.swift */; };
+		CC9A657F2084A3E5003DD4E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9A657E2084A3E5003DD4E0 /* ViewController.swift */; };
+		CC9A65822084A3E5003DD4E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9A65802084A3E5003DD4E0 /* Main.storyboard */; };
+		CC9A65842084A3E5003DD4E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC9A65832084A3E5003DD4E0 /* Assets.xcassets */; };
+		CC9A65872084A3E5003DD4E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9A65852084A3E5003DD4E0 /* LaunchScreen.storyboard */; };
+		CC9A65922084A3E5003DD4E0 /* CarGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9A65912084A3E5003DD4E0 /* CarGameTests.swift */; };
+		CC9A659D2084A3E5003DD4E0 /* CarGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9A659C2084A3E5003DD4E0 /* CarGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC9A658E2084A3E5003DD4E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC9A65712084A3E5003DD4E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC9A65782084A3E5003DD4E0;
+			remoteInfo = CarGame;
+		};
+		CC9A65992084A3E5003DD4E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC9A65712084A3E5003DD4E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC9A65782084A3E5003DD4E0;
+			remoteInfo = CarGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC9A65792084A3E5003DD4E0 /* CarGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9A657C2084A3E5003DD4E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC9A657E2084A3E5003DD4E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC9A65812084A3E5003DD4E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC9A65832084A3E5003DD4E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC9A65862084A3E5003DD4E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC9A65882084A3E5003DD4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9A658D2084A3E5003DD4E0 /* CarGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9A65912084A3E5003DD4E0 /* CarGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarGameTests.swift; sourceTree = "<group>"; };
+		CC9A65932084A3E5003DD4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9A65982084A3E5003DD4E0 /* CarGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9A659C2084A3E5003DD4E0 /* CarGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarGameUITests.swift; sourceTree = "<group>"; };
+		CC9A659E2084A3E5003DD4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC9A65762084A3E5003DD4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9A658A2084A3E5003DD4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9A65952084A3E5003DD4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC9A65702084A3E5003DD4E0 = {
+			isa = PBXGroup;
+			children = (
+				CC9A657B2084A3E5003DD4E0 /* CarGame */,
+				CC9A65902084A3E5003DD4E0 /* CarGameTests */,
+				CC9A659B2084A3E5003DD4E0 /* CarGameUITests */,
+				CC9A657A2084A3E5003DD4E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC9A657A2084A3E5003DD4E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC9A65792084A3E5003DD4E0 /* CarGame.app */,
+				CC9A658D2084A3E5003DD4E0 /* CarGameTests.xctest */,
+				CC9A65982084A3E5003DD4E0 /* CarGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC9A657B2084A3E5003DD4E0 /* CarGame */ = {
+			isa = PBXGroup;
+			children = (
+				CC9A657C2084A3E5003DD4E0 /* AppDelegate.swift */,
+				CC9A657E2084A3E5003DD4E0 /* ViewController.swift */,
+				CC9A65802084A3E5003DD4E0 /* Main.storyboard */,
+				CC9A65832084A3E5003DD4E0 /* Assets.xcassets */,
+				CC9A65852084A3E5003DD4E0 /* LaunchScreen.storyboard */,
+				CC9A65882084A3E5003DD4E0 /* Info.plist */,
+			);
+			path = CarGame;
+			sourceTree = "<group>";
+		};
+		CC9A65902084A3E5003DD4E0 /* CarGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC9A65912084A3E5003DD4E0 /* CarGameTests.swift */,
+				CC9A65932084A3E5003DD4E0 /* Info.plist */,
+			);
+			path = CarGameTests;
+			sourceTree = "<group>";
+		};
+		CC9A659B2084A3E5003DD4E0 /* CarGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC9A659C2084A3E5003DD4E0 /* CarGameUITests.swift */,
+				CC9A659E2084A3E5003DD4E0 /* Info.plist */,
+			);
+			path = CarGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC9A65782084A3E5003DD4E0 /* CarGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC9A65A12084A3E5003DD4E0 /* Build configuration list for PBXNativeTarget "CarGame" */;
+			buildPhases = (
+				CC9A65752084A3E5003DD4E0 /* Sources */,
+				CC9A65762084A3E5003DD4E0 /* Frameworks */,
+				CC9A65772084A3E5003DD4E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarGame;
+			productName = CarGame;
+			productReference = CC9A65792084A3E5003DD4E0 /* CarGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC9A658C2084A3E5003DD4E0 /* CarGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC9A65A42084A3E5003DD4E0 /* Build configuration list for PBXNativeTarget "CarGameTests" */;
+			buildPhases = (
+				CC9A65892084A3E5003DD4E0 /* Sources */,
+				CC9A658A2084A3E5003DD4E0 /* Frameworks */,
+				CC9A658B2084A3E5003DD4E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC9A658F2084A3E5003DD4E0 /* PBXTargetDependency */,
+			);
+			name = CarGameTests;
+			productName = CarGameTests;
+			productReference = CC9A658D2084A3E5003DD4E0 /* CarGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC9A65972084A3E5003DD4E0 /* CarGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC9A65A72084A3E5003DD4E0 /* Build configuration list for PBXNativeTarget "CarGameUITests" */;
+			buildPhases = (
+				CC9A65942084A3E5003DD4E0 /* Sources */,
+				CC9A65952084A3E5003DD4E0 /* Frameworks */,
+				CC9A65962084A3E5003DD4E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC9A659A2084A3E5003DD4E0 /* PBXTargetDependency */,
+			);
+			name = CarGameUITests;
+			productName = CarGameUITests;
+			productReference = CC9A65982084A3E5003DD4E0 /* CarGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC9A65712084A3E5003DD4E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ml15aad;
+				TargetAttributes = {
+					CC9A65782084A3E5003DD4E0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					CC9A658C2084A3E5003DD4E0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC9A65782084A3E5003DD4E0;
+					};
+					CC9A65972084A3E5003DD4E0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC9A65782084A3E5003DD4E0;
+					};
+				};
+			};
+			buildConfigurationList = CC9A65742084A3E5003DD4E0 /* Build configuration list for PBXProject "CarGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC9A65702084A3E5003DD4E0;
+			productRefGroup = CC9A657A2084A3E5003DD4E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC9A65782084A3E5003DD4E0 /* CarGame */,
+				CC9A658C2084A3E5003DD4E0 /* CarGameTests */,
+				CC9A65972084A3E5003DD4E0 /* CarGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC9A65772084A3E5003DD4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9A65872084A3E5003DD4E0 /* LaunchScreen.storyboard in Resources */,
+				CC9A65842084A3E5003DD4E0 /* Assets.xcassets in Resources */,
+				CC9A65822084A3E5003DD4E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9A658B2084A3E5003DD4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9A65962084A3E5003DD4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC9A65752084A3E5003DD4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9A657F2084A3E5003DD4E0 /* ViewController.swift in Sources */,
+				CC9A657D2084A3E5003DD4E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9A65892084A3E5003DD4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9A65922084A3E5003DD4E0 /* CarGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9A65942084A3E5003DD4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9A659D2084A3E5003DD4E0 /* CarGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC9A658F2084A3E5003DD4E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC9A65782084A3E5003DD4E0 /* CarGame */;
+			targetProxy = CC9A658E2084A3E5003DD4E0 /* PBXContainerItemProxy */;
+		};
+		CC9A659A2084A3E5003DD4E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC9A65782084A3E5003DD4E0 /* CarGame */;
+			targetProxy = CC9A65992084A3E5003DD4E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC9A65802084A3E5003DD4E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC9A65812084A3E5003DD4E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC9A65852084A3E5003DD4E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC9A65862084A3E5003DD4E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC9A659F2084A3E5003DD4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC9A65A02084A3E5003DD4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC9A65A22084A3E5003DD4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Herts.CarGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CC9A65A32084A3E5003DD4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Herts.CarGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CC9A65A52084A3E5003DD4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Herts.CarGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarGame.app/CarGame";
+			};
+			name = Debug;
+		};
+		CC9A65A62084A3E5003DD4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Herts.CarGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarGame.app/CarGame";
+			};
+			name = Release;
+		};
+		CC9A65A82084A3E5003DD4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CarGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Herts.CarGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CarGame;
+			};
+			name = Debug;
+		};
+		CC9A65A92084A3E5003DD4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CarGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Herts.CarGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CarGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC9A65742084A3E5003DD4E0 /* Build configuration list for PBXProject "CarGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9A659F2084A3E5003DD4E0 /* Debug */,
+				CC9A65A02084A3E5003DD4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC9A65A12084A3E5003DD4E0 /* Build configuration list for PBXNativeTarget "CarGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9A65A22084A3E5003DD4E0 /* Debug */,
+				CC9A65A32084A3E5003DD4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC9A65A42084A3E5003DD4E0 /* Build configuration list for PBXNativeTarget "CarGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9A65A52084A3E5003DD4E0 /* Debug */,
+				CC9A65A62084A3E5003DD4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC9A65A72084A3E5003DD4E0 /* Build configuration list for PBXNativeTarget "CarGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9A65A82084A3E5003DD4E0 /* Debug */,
+				CC9A65A92084A3E5003DD4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC9A65712084A3E5003DD4E0 /* Project object */;
+}
